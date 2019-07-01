@@ -46,8 +46,8 @@ async def _(event):
         return
     me = borg.me
     userid = event.from_id
-    packname = f"My Kang Pack!"
-    packshortname = f"{userid}_kang_pack"  # format: Uni_Borg_userid
+    packname = f"Voldemort's Kang Pack!"
+    packshortname = f"kang_pack_{userid}"  # format: Uni_Borg_userid
 
     await event.edit("Processing this sticker. Please Wait!")
 
